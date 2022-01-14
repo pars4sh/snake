@@ -1,32 +1,32 @@
-#Requirements
+# Requirements
 
-##Random 2
+## Random 2
 ```bash
 pip install random2
 ```
-##Times
+## Times
 ```bash
 pip install times
 ```
 
-##Python Turtle
+## Python Turtle
 turtle installers on Windows and MacOS are available from https://pythonturtle.org and https://github.com/PythonTurtle/PythonTurtle/releases
 
-###Ubuntu Linux:
+### Ubuntu Linux:
 ```bash
 sudo apt-get install -y python3-wxgtk4.0
 ```
-###Fedora:
+### Fedora:
 ```bash
 python3 -m pip install wxpython
 ```
-###On any GNU/Linux distribution: (after installing prerequestings)
+### On any GNU/Linux distribution: (after installing prerequestings)
 ```bash
 python3 -m pip install --user PythonTurtle
 PythonTurtle
 ```
 
-##Development
+## Development
 ```bash
 git clone https://github.com/PythonTurtle/PythonTurtle.git
 cd PythonTurtle
