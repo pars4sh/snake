@@ -10,7 +10,7 @@ pip install times
 ```
 
 ### Python Turtle
-turtle installers on Windows and MacOS are available from https://pythonturtle.org and https://github.com/PythonTurtle/PythonTurtle/releases
+Turtle installers on Windows and MacOS are available from https://pythonturtle.org and https://github.com/PythonTurtle/PythonTurtle/releases
 
 #### Ubuntu Linux:
 ```bash
