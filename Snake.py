@@ -37,7 +37,7 @@ pen.color("white")
 pen.penup()
 pen.hideturtle()
 pen.goto(0, 250)
-pen.write("Score: 0     High Score: 0", align="center", font=("monoscope", 20, "bold"))
+pen.write("Score: 0     High Score: 0", align="center", font=("monospace", 20, "bold"))
 
 def goUp():
     if head.direction != "down":
@@ -86,7 +86,7 @@ def Play():
         seg.clear()
         score, delay = 0, 0.1
         pen.clear()
-        pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monoscope", 20, "bold"))
+        pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monospace", 20, "bold"))
     if head.distance(food) < 20:
         x, y = r.randint(-270, 270), r.randint(-270, 270)
         food.goto(x, y)
@@ -101,7 +101,7 @@ def Play():
         if score > high_score:
             high_score = score
         pen.clear()
-        pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monoscope", 20, "bold"))
+        pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monospace", 20, "bold"))
     for i in range(len(seg) - 1, 0, -1):
         x, y = seg[i - 1].xcor(), seg[i - 1].ycor()
         seg[i].goto(x, y)
@@ -121,7 +121,7 @@ def Play():
             seg.clear()
             score, delay = 0, 0.1
             pen.clear()
-            pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monoscope", 20, "bold"))
+            pen.write("Score: {}    High Score: {}".format(score, high_score), align="center", font=("monospace", 20, "bold"))
     t.sleep(delay)
 
 if __name__ == "__main__":
